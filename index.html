@@ -19,7 +19,9 @@
                 <input type="text" name="email" id="email" oninput="EnteredText()" onfocusin ="myFunction(this)" onfocusout="myFunction1(this)" required>
             </div>
             <div class="form-group">
-                <button type="submit" onclick="submitted()">register</button>
+                <!-- <button type="submit" onclick="submitted()" >register</button> -->
+                <button type="submit" onclick="showConfirm()" >register</button>
+                <button onclick="showPrompt()">Prompt Button</button>
             </div>
             <h3>Entered Info:</h3>
             <p id="printText"></p> 
@@ -34,3 +36,7 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+<!-- Add keyup and keydown as well -->

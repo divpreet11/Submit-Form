@@ -25,4 +25,25 @@ function myFunction1(x){
     x.style.background = "white" ;
 }
 
+function showConfirm() {
+    var result = confirm("Are you sure you want to submit the form?");
+    if (result === true) {
+      alert("Item deleted successfully!");
+    } else {
+      alert("Deletion cancelled.");
+    }
+  }
+
+  function showPrompt() {
+    var result = prompt("Press Y to save the cookies: ");
+    if (result == "Y") {
+      alert("Welcome to our website!");
+    }
+    else{
+        alert("Sorry! you are not authorised")
+    }
+  }
+
+ 
+
 
